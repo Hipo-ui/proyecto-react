@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+}
+
+@layer components {
+  .content {
+    @apply flex flex-col gap-9 text-gray-200;
+  }
+
+  .header {
+    @apply text-5xl text-center font-medium;
+  }
+
+  .cripto-content {
+    @apply grid grid-cols-4 gap-4;
+  }
+}

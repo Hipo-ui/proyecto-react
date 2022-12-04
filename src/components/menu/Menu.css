@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    
+}
+
+@layer components {
+    .main-menu {
+        @apply bg-blue-900 p-4 rounded-lg;
+    }
+
+    .container-menu {
+        @apply flex flex-row gap-4;
+    }
+
+    .link-menu {
+        @apply text-orange-300 hover:text-orange-600;
+    }
+}

@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        @apply bg-gray-800 text-white;
+    }
+}
+
+@layer components {
+    .main-container {
+        @apply container flex flex-col gap-9 justify-center items-center mx-auto my-16;
+    }
+}
